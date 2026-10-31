@@ -1,0 +1,48 @@
+.gallery-container {
+  width: 90%;
+  margin: 0 auto;
+  left: 100px;
+}
+
+.gallery-container h1 {
+  text-align: right;
+  font-size: 30px;
+  margin-right: 15%;
+}
+
+.photo-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.photo-item img {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.photo-item p {
+  font-size: 14px;
+}
+.photo-item button {
+  border: none;
+  background: none;
+  color: #087bff;
+  cursor: pointer;
+  font-size: 18px;
+}
+.photo-item button:hover {
+  color: #0056b3;
+}
+
+.status {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.bottom-marker {
+  height: 20px;
+  width: 100%;
+}
