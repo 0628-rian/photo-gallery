@@ -25,6 +25,8 @@
 
 .photo-item p {
   font-size: 14px;
+  color: black;
+  font-weight: 600;
 }
 .photo-item button {
   border: none;
