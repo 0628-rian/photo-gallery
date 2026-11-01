@@ -1,7 +1,23 @@
+:root {
+  color-scheme: light;
+}
+html,
+body,
+#root {
+  background-color: #ffffff !important;
+  color: #000000;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 .gallery-container {
   width: 90%;
   margin: 0 auto;
   left: 100px;
+  background-color: #ffffff;
 }
 
 .gallery-container h1 {
